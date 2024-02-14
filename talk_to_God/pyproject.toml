@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "talk-to-god"
+version = "0.1.0"
+description = "O objetivo deste script é automatizar a extração de conteúdo de um site de meditação diária ("https://www.hablarcondios.org/pt/meditacaodiaria.aspx") e salvar esse conteúdo em um arquivo Markdown (.md). A automação é realizada usando a biblioteca Selenium em Python, com o navegador Chrome em modo headless."
+authors = ["Diego <diegosolidity@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+seleniumbase = "^4.23.3"
+selenium = "^4.17.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
